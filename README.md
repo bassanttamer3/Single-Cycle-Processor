@@ -19,18 +19,5 @@ Our project focuses on designing a Single-Cycle Processor using VHDL. The proces
 - **Branch equal (beq)**: Branch if registers are equal.
 - **Branch not equal (bne)**: Branch if registers are not equal.
 
-### Instruction Execution Cycles
-In a Single-Cycle Processor, all instructions are executed in one cycle, which encompasses the following stages:
-
-1. **Instruction Fetch**: Retrieve the instruction from memory.
-2. **Instruction Decode and Register Fetch**: Decode the instruction and read the necessary registers.
-3. **Execution/Memory Address Computation/Branch Completion/Jump Completion**: 
-    - Execute the operation for R-type instructions.
-    - Compute the memory address for load/store instructions.
-    - Complete the branch decision for branch instructions.
-4. **Memory Access or R-type Instruction Completion**: 
-    - Access memory for load/store instructions.
-    - Complete the execution for R-type instructions.
-5. **Memory Read Completion**: Complete the memory read for load instructions.
 
 
