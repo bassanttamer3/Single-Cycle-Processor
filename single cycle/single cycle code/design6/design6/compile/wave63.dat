@@ -1,0 +1,63 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 clk
+$S 5 1 sig_MemtoReg
+$S 9 1 sig_Branch
+$S +4 1 sig_AluSrc
+$S +4 1 sig_RegDst
+$S +4 1 7 0 Write
+$S +4 1 sig_zero
+$S +4 1 sig_MemRead
+$S +4 1 7 0 Write
+I 2 "a#28#std_logic_vector(2 downto 0)1 ricd2 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 49 2 3 sig_ALUOp
+$SC 37-+8/4
+I 3 "a#29#std_logic_vector(31 downto 0)1 ricd31 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 178 3 32 sig_pc_output
+$SC 50-174/4
+$BUS S 307 3 32 sig_instruction
+$SC 179-303/4
+$BUS S 436 3 32 sig_pc_plus4_result
+$SC 308-432/4
+I 4 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +25 4 5 sig_write_register
+$SC 437-+16/4
+$BUS S 586 3 32 sig_read_data1
+$SC 458-582/4
+$BUS S 715 3 32 13 0 "2"
+$SC 587-711/4
+$BUS S 844 3 32 sign_extend_out
+$SC 716-840/4
+$BUS S 973 3 32 data_out_of_usememmux
+$SC 845-969/4
+$BUS S +133 3 32 alu_src_outof_mux
+$SC 974-+124/4
+$BUS S +133 3 32 alu_result
+$SC 1103-+124/4
+$BUS S +133 3 32 4 7 just_adder
+$SC 1232-+124/4
+$BUS S +133 3 32 data_out_of_mem
+$SC 1361-+124/4
+$BUS S +133 3 32 sig_out_of_shift
+$SC 1490-+124/4
+$S +5 1 pcsrc_mux_sel
+$BUS S +132 3 32 6 0 out_of_mux
+$SC 1623-+124/4
+I 5 "a#28#std_logic_vector(5 downto 0)1 ricd5 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +5 5 6 sig_opcode
+$SC 179-+20/4
+$BUS S 1753 5 6 sig_funct
+$SC 283-+20/4
+$BUS S 1754 4 5 rs
+$SC 203-+16/4
+$BUS S 1755 4 5 rt
+$SC 223-+16/4
+$BUS S 1756 4 5 rd
+$SC 243-+16/4
+$BUS S 1757 4 5 shamt
+$SC 263-+16/4
+I 6 "a#29#std_logic_vector(15 downto 0)1 ricd15 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 1758 6 16 offset
+$SC 243-+60/4
+IENDWAVE

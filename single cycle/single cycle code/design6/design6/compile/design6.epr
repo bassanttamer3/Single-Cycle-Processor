@@ -1,0 +1,15 @@
+"c:\My_Designs\design6\design6\src\alu.vhd" design6 1 0 0
+"c:\My_Designs\design6\design6\src\alu_control.vhd" design6 1 0 0
+"c:\My_Designs\design6\design6\src\control_unit.vhd" design6 1 0 1162435653
+"c:\My_Designs\design6\design6\src\control_value.vhd" design6 1 0 0
+"c:\My_Designs\design6\design6\src\data_memory.vhd" design6 1 0 1146377052
+"c:\My_Designs\design6\design6\src\datapath.vhd" design6 1 0 1146377052
+"c:\My_Designs\design6\design6\src\instruction_memory.vhd" design6 1 0 0
+"c:\My_Designs\design6\design6\src\mux.vhd" design6 1 0 2037539186
+"c:\My_Designs\design6\design6\src\pc.vhd" design6 1 0 0
+"c:\My_Designs\design6\design6\src\pc_adder.vhd" design6 1 0 0
+"c:\My_Designs\design6\design6\src\register_file.vhd" design6 1 0 0
+"c:\My_Designs\design6\design6\src\shift_left_2.vhd" design6 1 0 0
+"c:\My_Designs\design6\design6\src\sign_extend.vhd" design6 1 0 0
+"c:\My_Designs\design6\design6\src\tb_datapath.vhd" design6 1 0 0
+. . 0 0 0

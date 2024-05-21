@@ -1,0 +1,148 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom $DSN/src/alu.vhd $DSN/src/alu_control.vhd $DSN/src/control_unit.vhd $DSN/src/control_value.vhd $DSN/src/data_memory.vhd $DSN/src/datapath.vhd $DSN/src/instruction_memory.vhd $DSN/src/mux.vhd $DSN/src/pc.vhd $DSN/src/pc_adder.vhd $DSN/src/register_file.vhd $DSN/src/shift_left_2.vhd $DSN/src/sign_extend.vhd $DSN/src/tb_datapath.vhd
+# Compile...
+# File: c:\My_Designs\design6\design6\src\alu.vhd
+# Compile Entity "alu"
+# Entity `alu' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "alu"
+# File: c:\My_Designs\design6\design6\src\alu_control.vhd
+# Compile Entity "alu_control"
+# Entity `alu_control' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "alu_control"
+# File: c:\My_Designs\design6\design6\src\control_unit.vhd
+# Compile Entity "control_unit"
+# Entity `control_unit' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "control_unit"
+# File: c:\My_Designs\design6\design6\src\control_value.vhd
+# Compile Entity "control_value"
+# Entity `control_value' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "control_value"
+# File: c:\My_Designs\design6\design6\src\data_memory.vhd
+# Compile Entity "data_memory"
+# Entity `data_memory' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "data_memory"
+# File: c:\My_Designs\design6\design6\src\datapath.vhd
+# Compile Entity "datapath"
+# Entity `datapath' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "datapath"
+# File: c:\My_Designs\design6\design6\src\instruction_memory.vhd
+# Compile Entity "instruction_memory"
+# Entity `instruction_memory' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "instruction_memory"
+# File: c:\My_Designs\design6\design6\src\mux.vhd
+# Compile Entity "mux"
+# Entity `mux' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "mux"
+# File: c:\My_Designs\design6\design6\src\pc.vhd
+# Compile Entity "pc"
+# Entity `pc' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "PC"
+# File: c:\My_Designs\design6\design6\src\pc_adder.vhd
+# Compile Entity "pc_adder"
+# Entity `pc_adder' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "pc_adder"
+# File: c:\My_Designs\design6\design6\src\register_file.vhd
+# Compile Entity "register_file"
+# Entity `register_file' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "register_file"
+# File: c:\My_Designs\design6\design6\src\shift_left_2.vhd
+# Compile Entity "shift_left_2"
+# Entity `shift_left_2' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "shift_left_2"
+# File: c:\My_Designs\design6\design6\src\sign_extend.vhd
+# Compile Entity "sign_extend"
+# Entity `sign_extend' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "sign_extend"
+# File: c:\My_Designs\design6\design6\src\tb_datapath.vhd
+# Compile Entity "tb_datapath"
+# Entity `tb_datapath' has been skipped - no difference detected.
+# Compile Architecture "BEHAV" of Entity "tb_datapath"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+# asim -advdataflow datapath
+asim -advdataflow datapath
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 2754 kB (elbread=1071 elab2=594 kernel=1089 sdf=0)
+# 8:29 PM, Sunday, May 19, 2024
+# Simulation has been initialized
+# Selected Top-Level: datapath (behav)
+run @100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_pc_adder,  Process: line__17.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_register_file,  Process: line__40.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_register_file,  Process: line__40.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_register_file,  Process: line__40.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_register_file,  Process: line__40.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_register_file,  Process: line__40.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_register_file,  Process: line__40.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_register_file,  Process: line__40.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_register_file,  Process: line__40.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_register_file,  Process: line__40.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_register_file,  Process: line__40.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_alu_just_adder,  Process: line__33.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /U_alu_main,  Process: line__33.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U_alu_just_adder,  Process: line__33.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /U_alu_main,  Process: line__33.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U_alu_just_adder,  Process: line__33.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /U_alu_main,  Process: line__33.
+# KERNEL: stopped at time: 100 ns
+run @200ns
+# KERNEL: stopped at time: 200 ns
+run @300ns
+# KERNEL: stopped at time: 300 ns
+run @400ns
+# KERNEL: stopped at time: 400 ns
+run @500ns
+# KERNEL: stopped at time: 500 ns
+run @600ns
+# KERNEL: stopped at time: 600 ns
+run @700ns
+# KERNEL: stopped at time: 700 ns
+run @800ns
+# KERNEL: stopped at time: 800 ns
+run @900ns
+# KERNEL: stopped at time: 900 ns
+run @1us
+# KERNEL: stopped at time: 1 us
+run @1.1us
+# KERNEL: stopped at time: 1100 ns
+run @1.2us
+# KERNEL: stopped at time: 1200 ns
+run @1.3us
+# KERNEL: stopped at time: 1300 ns
+run @1.4us
+# KERNEL: stopped at time: 1400 ns
+run @1.5us
+# KERNEL: stopped at time: 1500 ns
+run @1.6us
+# KERNEL: stopped at time: 1600 ns
+run @1.7us
+# KERNEL: stopped at time: 1700 ns
+# Simulation has been stopped
