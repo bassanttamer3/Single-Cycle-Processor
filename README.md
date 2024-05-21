@@ -2,7 +2,7 @@
 
 **Single-Cycle Processor Design in VHDL** 😎🚀
 
-Our project focuses on designing a Single-Cycle Processor using VHDL. The processor supports both R-type and I-type instructions. Each instruction is executed in a single cycle, where all stages (instruction fetch, decode, execution, memory access, and write-back) occur simultaneously. Below is a summary of the supported instructions:
+Our project focuses on designing a Single-Cycle Processor using VHDL. The processor supports both R-type and I-type instructions. 
 
 ### R-type Instructions
 - **Add**: Perform addition.
